@@ -28,6 +28,7 @@ public class CompteSimple extends Compte {
     public String toString() {
         return super.toString();
     }
+
 }
 
 
