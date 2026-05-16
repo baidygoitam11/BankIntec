@@ -49,9 +49,5 @@ public class PersonneForm extends JFrame {
         c.gridx = 1;
         p.add(textField, c);
     }
-    public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> {
-            new PersonneForm().setVisible(true);
-        });
-    }
+
 }
