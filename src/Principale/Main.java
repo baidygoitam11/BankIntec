@@ -1,6 +1,7 @@
 package Principale;
 
 import Entites.*;
+import View.AgenceForm;
 import View.PersonneForm;
 
 import java.util.Date;
@@ -10,6 +11,8 @@ import java.util.Date;
 public class Main {
     public static void main(String[] args) {
         new PersonneForm().setVisible(true);
+            AgenceForm f = new AgenceForm();
+            f.setVisible(true);
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
         System.out.printf("Hello and welcome!");
